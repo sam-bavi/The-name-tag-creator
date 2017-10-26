@@ -1,0 +1,133 @@
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+ .row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+  
+  /*
+   * Styles copied from the Grid example to make grid rows & columns visible.
+   */
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  h4 {
+    margin-top: 25px;
+  }
+  .row {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .row .row {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  [class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+  }
+  
+  /*
+   * Callout styles copied from Bootstrap's main docs.
+   */
+  /* Common styles for all types */
+  .bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 3px solid #eee;
+  }
+  .bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .bs-callout p:last-child {
+    margin-bottom: 0;
+  }
+  .bs-callout code {
+    background-color: #fff;
+    border-radius: 3px;
+  }
+  /* Variations */
+  .bs-callout-danger {
+    background-color: #fdf7f7;
+    border-color: #d9534f;
+  }
+  .bs-callout-danger h4 {
+    color: #d9534f;
+  }
+  .bs-callout-warning {
+    background-color: #fcf8f2;
+    border-color: #f0ad4e;
+  }
+  .bs-callout-warning h4 {
+    color: #f0ad4e;
+  }
+  .bs-callout-info {
+    background-color: #f4f8fa;
+    border-color: #5bc0de;
+  }
+  .bs-callout-info h4 {
+    color: #5bc0de;
+  }
+.placeholder-right {
+  margin-top: 20px;
+}
+.card-header {
+  color: white;
+  border-collapse: separate;
+}
+.img-fluid {
+    width: 300px;
+    height: 300px;
+}
+.shadow {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* Flexbox
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 207px;
+  height: 340px;
+  align-self: center;
+  margin: 20px auto;
+}
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /*-webkit-flex-flow: row wrap;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.flex-img {
+  align-self: center;
+}
+.flex-header {
+  align-self: flex-start;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.flex-items {
+  align-self: flex-end;
+  margin-top: 80%;
+} */
