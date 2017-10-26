@@ -1,7 +1,7 @@
 ## PHP web-app created ass part of my 'php','mysql','apache' development course.
-###### The assigment goal was to create a web-app that could be used to print out visitor nameTags that could be used both as identification and to gather a list in case of emergencies.
+###### The assignment goal was to create a web-app that could be used to print out visitor nameTags that could be used both as identification and to gather a list in case of emergencies.
 
-*Parts of the code mosly text is in bits in swedish, but the code Is well formated And should be a good base for a starters php project and bootstrap project. Lots of knowledge comes from https://www.codeschool.com/courses/close-encounters-with-php*
+*Parts of the code mosly text is in bits in swedish, but the code Is well formated and should be a good base for a starters php project and bootstrap project. Lots of knowledge comes from https://www.codeschool.com/courses/close-encounters-with-php*
 
 **Known Issues**
 ```
